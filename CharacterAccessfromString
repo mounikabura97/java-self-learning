@@ -1,0 +1,12 @@
+public class CharacterAccessfromString {
+    public static void main(String[] args) {
+        String str = "Hello, World!";
+        int len = str.length();
+        
+        // Access each character in the string using charAt() method
+        for (int i = 0; i < len; i++) {
+            char c = str.charAt(i);
+            System.out.println("Character at position " + i + " is " + c);
+        }
+    }
+}
